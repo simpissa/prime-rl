@@ -55,7 +55,7 @@ To train on multiple GPUs, run
 uv run torchrun \
   --local-ranks-filter 0 \
   --nproc-per-node ... \
-  src/prime_rl/trainer/sft/train.py @ examples/reverse_text/sft/train.toml \
+  src/prime_rl/trainer/sft/train.py @ examples/reverse_text/sft.toml \
   --wandb.project ... \
   --wandb.name ...
 ```
